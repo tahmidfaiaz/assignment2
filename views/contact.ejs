@@ -24,7 +24,7 @@
         <p>Feel free to reach out to me using the form below:</p>
         <div class="contact-form">
           <form action="/contact" method="POST">
-            <div class="mb-3">
+            <div class="mb-3 text-start">
               <label for="firstName" class="form-label"
                 >First Name:</label
               >
@@ -35,6 +35,54 @@
                 name="firstName"
                 required
               />
+            </div>
+             <div class="mb-3 text-start">
+              <label for="firstName" class="form-label"
+                >Last Name:</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="lastName"
+                name="lastName"
+                required
+              />
+            </div>
+            <div class="mb-3 text-start">
+              <label for="firstName" class="form-label"
+                >Contact Number:</label
+              >
+              <input
+                type="number"
+                class="form-control"
+                id="contactnumber"
+                name="contactnumber"
+                required
+              />
+            </div>
+            <div class="mb-3 text-start">
+              <label for="firstName" class="form-label"
+                >Email Address:</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="emailaddress"
+                name="emailaddress"
+                required
+              />
+            </div>
+            <div class="mb-3 text-start">
+              <label for="firstName" class="form-label"
+                >Message:</label
+              >
+              <textarea
+                type="text"
+                class="form-control"
+                id="message"
+                name="message"
+                required
+              ></textarea>
             </div>
             <!-- Add more form fields here -->
             <button type="submit" class="btn btn-primary">
