@@ -1,0 +1,36 @@
+ /* Custom CSS for this page */
+ .hero {
+    background-image: url('/images/hero-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 0; /* Reduced padding */
+    text-align: center;
+    min-height: calc(
+      100vh - 150px
+    ); /* Adjust 80px to match your header height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero h1 {
+    font-size: 2.5rem; /* Reduced font size */
+    margin-bottom: 15px; /* Reduced margin */
+  }
+  .hero p {
+    font-size: 1rem; /* Reduced font size */
+    margin-bottom: 20px; /* Reduced margin */
+  }
+  .hero a {
+    display: inline-block;
+    padding: 8px 16px; /* Reduced padding */
+    background-color: #f86b51;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  .hero a:hover {
+    background-color: #e96044;
+  }
